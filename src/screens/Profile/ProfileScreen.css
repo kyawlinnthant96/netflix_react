@@ -1,0 +1,75 @@
+.profileScreen {
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+.profileScreen__body {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.profileScreen__body > h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 2rem;
+}
+.profileScreen__info {
+  display: flex;
+}
+.profileScreen__info > img {
+  height: 9rem;
+}
+
+.profileScreen__details {
+  color: white;
+  margin-left: 2rem;
+  flex: 1;
+}
+.profileScreen__details > h2 {
+  padding: 1rem;
+  background-color: grey;
+  font-size: 1rem;
+  padding-left: 1.4rem;
+}
+.profileScreen__plans > button {
+  padding: 0.8rem 1.2rem;
+  width: 100%;
+  margin-top: 5%;
+  font-size: 1rem;
+}
+.profileScreen__plans > h3 {
+  margin-top: 20px;
+}
+
+.profileScreen__plans--detail {
+  display: flex;
+  font-display: row;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.profileScreen__plans--detail > p {
+  flex: 0.2;
+  font-size: 12px;
+}
+.profileScreen__plans--detail > h4 {
+  flex: 0.5;
+  font-size: 12px;
+  font-weight: 400;
+}
+.profileScreen__plans--detail > button {
+  flex: 0.2;
+  padding: 2px 4px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: gray;
+  transition: all 0.3s;
+}
+.profileScreen__plans--detail > button:hover {
+  background-color: #fff;
+}

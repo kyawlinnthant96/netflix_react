@@ -1,0 +1,198 @@
+.subscribeScreen {
+  height: 100vh;
+  display: flex;
+}
+.subscribeScreen__left {
+  flex: 0.5;
+  background-color: orangered;
+  position: relative;
+}
+.subscribeScreen__left--container {
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+.subscribeScreen__left--logo {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.subscribeScreen__left--logo > img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.subscribeScreen__left--logo > h4 {
+  font-size: 14px;
+  background-color: #fff;
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: orange;
+}
+.subscribeScreen__left--info {
+  display: flex;
+  flex-direction: column;
+}
+.subscribeScreen__left--info > h4 {
+  flex: 1;
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  color: lightgray;
+}
+.subscribeScreen__left--info > div {
+  display: flex;
+}
+.subscribeScreen__left--info > div > p {
+  flex: 0.6;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+
+  color: #fff;
+}
+.subscribeScreen__left--info > div > span {
+  flex: 0.3;
+  font-size: 15px;
+  font-weight: 300;
+  color: lightgray;
+}
+.subscribeScreen__left--footer {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+}
+.subscribeScreen__left--footer > p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #333;
+}
+.subscribeScreen__right {
+  flex: 0.5;
+  background-color: #fff;
+}
+
+.subscribeScreen__right--container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.subscribeScreen__payoptions {
+  position: relative;
+  background-color: #121212;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.gpay--container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.gpay--logo {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.options--text {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid gray;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  margin-bottom: 30px;
+}
+
+.options--text > span {
+  background: #fff;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form--email,
+.form--card,
+.form--nameOnCard,
+.form--selectCountry,
+.form--button {
+  margin-bottom: 20px;
+}
+.form--email > input,
+.card--field > input,
+.form--nameOnCard > input,
+.form--selectCountry > select,
+.form--button > button {
+  width: 96%;
+  padding: 5px;
+  border: 1px solid #666;
+  border-radius: 3px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+label {
+  display: block;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+}
+
+.card--field {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.cart--img {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 60px;
+  height: 20px;
+  object-fit: contain;
+}
+.card__subinfo {
+  display: flex;
+}
+.card__subinfo > input {
+  width: 55%;
+  padding: 5px;
+  border: 1px solid #777;
+  border-top: 0px;
+}
+.card__subinfo > input:not(:last-child) {
+  border-right: 0;
+}
+
+.form--button > button {
+  background-color: #fbc02d;
+  border: none;
+  padding: 5px auto;
+  color: #000;
+  font-weight: 400;
+}
+.term {
+  font-size: 8px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 14px;
+}
